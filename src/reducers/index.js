@@ -4,6 +4,6 @@ import books from "./books";
 import cart from "./cart";
 import filter from "./filter";
 
-exort default combineReducers({
+export default combineReducers({
     books, cart, filter
 });
